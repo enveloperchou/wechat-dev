@@ -1,0 +1,241 @@
+1
+1
+1
+1
+1
+1
+ImmutableMultiDict([('type', u'help')])
+ImmutableMultiDict([('type', u'help')])
+ImmutableMultiDict([('type', u'help')])
+<Request 'http://zhouxf.com/publish' [POST]>
+help
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 218, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 331, in halt
+    self.stop()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 381, in stop
+    time.sleep(0.1)
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 231, in handle_chld
+    self.reap_workers()
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 506, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+1
+1
+1
+1
+1
+1
+ImmutableMultiDict([('title', u'\u6025\u6025\u6025!'), ('type', u'pleh'), ('description', u'\u4e2d\u5357\u6d77\u9001\u5377\u5395\u7eb8'), ('offer', u'yes')])
+ImmutableMultiDict([('title', u'help'), ('type', u'pleh'), ('description', u'helphelp'), ('offer', u'yes')])

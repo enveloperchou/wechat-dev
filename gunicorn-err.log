@@ -1,0 +1,2036 @@
+[2016-12-29 03:19:54 +0000] [35] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:19:54 +0000] [35] [INFO] Listening at: http://0.0.0.0:9000 (35)
+[2016-12-29 03:19:54 +0000] [35] [INFO] Using worker: sync
+[2016-12-29 03:19:54 +0000] [42] [INFO] Booting worker with pid: 42
+[2016-12-29 03:19:54 +0000] [42] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:19:54 +0000] [42] [INFO] Worker exiting (pid: 42)
+[2016-12-29 03:19:54 +0000] [35] [INFO] Shutting down: Master
+[2016-12-29 03:19:54 +0000] [35] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:19:55 +0000] [43] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:19:55 +0000] [43] [INFO] Listening at: http://0.0.0.0:9000 (43)
+[2016-12-29 03:19:55 +0000] [43] [INFO] Using worker: sync
+[2016-12-29 03:19:55 +0000] [48] [INFO] Booting worker with pid: 48
+[2016-12-29 03:19:55 +0000] [48] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:19:55 +0000] [48] [INFO] Worker exiting (pid: 48)
+[2016-12-29 03:19:55 +0000] [43] [INFO] Shutting down: Master
+[2016-12-29 03:19:55 +0000] [43] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:19:57 +0000] [49] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:19:57 +0000] [49] [INFO] Listening at: http://0.0.0.0:9000 (49)
+[2016-12-29 03:19:57 +0000] [49] [INFO] Using worker: sync
+[2016-12-29 03:19:57 +0000] [54] [INFO] Booting worker with pid: 54
+[2016-12-29 03:19:57 +0000] [54] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:19:57 +0000] [54] [INFO] Worker exiting (pid: 54)
+[2016-12-29 03:19:57 +0000] [49] [INFO] Shutting down: Master
+[2016-12-29 03:19:57 +0000] [49] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:20:00 +0000] [55] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:20:00 +0000] [55] [INFO] Listening at: http://0.0.0.0:9000 (55)
+[2016-12-29 03:20:00 +0000] [55] [INFO] Using worker: sync
+[2016-12-29 03:20:00 +0000] [60] [INFO] Booting worker with pid: 60
+[2016-12-29 03:20:00 +0000] [60] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:20:00 +0000] [60] [INFO] Worker exiting (pid: 60)
+[2016-12-29 03:20:00 +0000] [55] [INFO] Shutting down: Master
+[2016-12-29 03:20:00 +0000] [55] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:22:00 +0000] [72] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:22:00 +0000] [72] [INFO] Listening at: http://0.0.0.0:9000 (72)
+[2016-12-29 03:22:00 +0000] [72] [INFO] Using worker: sync
+[2016-12-29 03:22:00 +0000] [79] [INFO] Booting worker with pid: 79
+[2016-12-29 03:22:00 +0000] [79] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:22:00 +0000] [79] [INFO] Worker exiting (pid: 79)
+[2016-12-29 03:22:00 +0000] [72] [INFO] Shutting down: Master
+[2016-12-29 03:22:00 +0000] [72] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:22:01 +0000] [81] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:22:01 +0000] [81] [INFO] Listening at: http://0.0.0.0:9000 (81)
+[2016-12-29 03:22:01 +0000] [81] [INFO] Using worker: sync
+[2016-12-29 03:22:01 +0000] [86] [INFO] Booting worker with pid: 86
+[2016-12-29 03:22:01 +0000] [86] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:22:01 +0000] [86] [INFO] Worker exiting (pid: 86)
+[2016-12-29 03:22:01 +0000] [81] [INFO] Shutting down: Master
+[2016-12-29 03:22:01 +0000] [81] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:22:04 +0000] [87] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:22:04 +0000] [87] [INFO] Listening at: http://0.0.0.0:9000 (87)
+[2016-12-29 03:22:04 +0000] [87] [INFO] Using worker: sync
+[2016-12-29 03:22:04 +0000] [92] [INFO] Booting worker with pid: 92
+[2016-12-29 03:22:04 +0000] [92] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:22:04 +0000] [92] [INFO] Worker exiting (pid: 92)
+[2016-12-29 03:22:04 +0000] [87] [INFO] Shutting down: Master
+[2016-12-29 03:22:04 +0000] [87] [INFO] Reason: Worker failed to boot.
+[2016-12-29 03:22:07 +0000] [93] [INFO] Starting gunicorn 19.6.0
+[2016-12-29 03:22:07 +0000] [93] [INFO] Listening at: http://0.0.0.0:9000 (93)
+[2016-12-29 03:22:07 +0000] [93] [INFO] Using worker: sync
+[2016-12-29 03:22:07 +0000] [98] [INFO] Booting worker with pid: 98
+[2016-12-29 03:22:07 +0000] [98] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+ImportError: No module named app
+[2016-12-29 03:22:07 +0000] [98] [INFO] Worker exiting (pid: 98)
+[2016-12-29 03:22:07 +0000] [93] [INFO] Shutting down: Master
+[2016-12-29 03:22:07 +0000] [93] [INFO] Reason: Worker failed to boot.
+[2016-12-30 03:21:01 +0000] [166] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 03:21:01 +0000] [166] [INFO] Listening at: http://0.0.0.0:9000 (166)
+[2016-12-30 03:21:01 +0000] [166] [INFO] Using worker: sync
+[2016-12-30 03:21:01 +0000] [173] [INFO] Booting worker with pid: 173
+[2016-12-30 03:21:01 +0000] [178] [INFO] Booting worker with pid: 178
+[2016-12-30 03:21:01 +0000] [183] [INFO] Booting worker with pid: 183
+[2016-12-30 03:21:01 +0000] [184] [INFO] Booting worker with pid: 184
+[2016-12-30 03:24:40 +0000] [166] [INFO] Handling signal: term
+[2016-12-30 03:24:40 +0000] [184] [INFO] Worker exiting (pid: 184)
+[2016-12-30 03:24:40 +0000] [173] [INFO] Worker exiting (pid: 173)
+[2016-12-30 03:24:40 +0000] [178] [INFO] Worker exiting (pid: 178)
+[2016-12-30 03:24:40 +0000] [183] [INFO] Worker exiting (pid: 183)
+[2016-12-30 03:24:40 +0000] [166] [INFO] Shutting down: Master
+[2016-12-30 03:24:41 +0000] [215] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 03:24:41 +0000] [215] [INFO] Listening at: http://0.0.0.0:9000 (215)
+[2016-12-30 03:24:41 +0000] [215] [INFO] Using worker: sync
+[2016-12-30 03:24:41 +0000] [222] [INFO] Booting worker with pid: 222
+[2016-12-30 03:24:41 +0000] [227] [INFO] Booting worker with pid: 227
+[2016-12-30 03:24:41 +0000] [232] [INFO] Booting worker with pid: 232
+[2016-12-30 03:24:41 +0000] [233] [INFO] Booting worker with pid: 233
+[2016-12-30 03:37:50,167] ERROR in app: Exception on /detail/1 [GET]
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: detail() takes no arguments (1 given)
+[2016-12-30 03:38:12,559] ERROR in app: Exception on /detail/1 [GET]
+Traceback (most recent call last):
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1988, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1641, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1544, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1639, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.6/site-packages/flask/app.py", line 1625, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: detail() takes no arguments (1 given)
+[2016-12-30 03:39:06 +0000] [215] [INFO] Handling signal: term
+[2016-12-30 03:39:06 +0000] [233] [INFO] Worker exiting (pid: 233)
+[2016-12-30 03:39:06 +0000] [232] [INFO] Worker exiting (pid: 232)
+[2016-12-30 03:39:06 +0000] [227] [INFO] Worker exiting (pid: 227)
+[2016-12-30 03:39:06 +0000] [222] [INFO] Worker exiting (pid: 222)
+[2016-12-30 03:39:06 +0000] [215] [INFO] Shutting down: Master
+[2016-12-30 03:39:06 +0000] [252] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 03:39:06 +0000] [252] [INFO] Listening at: http://0.0.0.0:9000 (252)
+[2016-12-30 03:39:06 +0000] [252] [INFO] Using worker: sync
+[2016-12-30 03:39:06 +0000] [257] [INFO] Booting worker with pid: 257
+[2016-12-30 03:39:06 +0000] [262] [INFO] Booting worker with pid: 262
+[2016-12-30 03:39:06 +0000] [263] [INFO] Booting worker with pid: 263
+[2016-12-30 03:39:06 +0000] [268] [INFO] Booting worker with pid: 268
+[2016-12-30 07:01:18 +0000] [252] [INFO] Handling signal: term
+[2016-12-30 07:01:18 +0000] [268] [INFO] Worker exiting (pid: 268)
+[2016-12-30 07:01:18 +0000] [257] [INFO] Worker exiting (pid: 257)
+[2016-12-30 07:01:18 +0000] [263] [INFO] Worker exiting (pid: 263)
+[2016-12-30 07:01:18 +0000] [262] [INFO] Worker exiting (pid: 262)
+[2016-12-30 07:01:18 +0000] [252] [INFO] Shutting down: Master
+[2016-12-30 07:01:18 +0000] [300] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 07:01:18 +0000] [300] [INFO] Listening at: http://0.0.0.0:9000 (300)
+[2016-12-30 07:01:18 +0000] [300] [INFO] Using worker: sync
+[2016-12-30 07:01:18 +0000] [305] [INFO] Booting worker with pid: 305
+[2016-12-30 07:01:18 +0000] [310] [INFO] Booting worker with pid: 310
+[2016-12-30 07:01:18 +0000] [315] [INFO] Booting worker with pid: 315
+[2016-12-30 07:01:19 +0000] [320] [INFO] Booting worker with pid: 320
+[2016-12-30 07:03:11,608] ERROR in app: 'Request' object has no attribute 'body'
+[2016-12-30 07:03:39 +0000] [300] [INFO] Handling signal: term
+[2016-12-30 07:03:39 +0000] [310] [INFO] Worker exiting (pid: 310)
+[2016-12-30 07:03:39 +0000] [320] [INFO] Worker exiting (pid: 320)
+[2016-12-30 07:03:39 +0000] [305] [INFO] Worker exiting (pid: 305)
+[2016-12-30 07:03:39 +0000] [315] [INFO] Worker exiting (pid: 315)
+[2016-12-30 07:03:39 +0000] [300] [INFO] Shutting down: Master
+[2016-12-30 07:03:39 +0000] [329] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 07:03:39 +0000] [329] [INFO] Listening at: http://0.0.0.0:9000 (329)
+[2016-12-30 07:03:39 +0000] [329] [INFO] Using worker: sync
+[2016-12-30 07:03:39 +0000] [334] [INFO] Booting worker with pid: 334
+[2016-12-30 07:03:39 +0000] [335] [INFO] Booting worker with pid: 335
+[2016-12-30 07:03:39 +0000] [336] [INFO] Booting worker with pid: 336
+[2016-12-30 07:03:39 +0000] [337] [INFO] Booting worker with pid: 337
+[2016-12-30 07:04:32 +0000] [329] [INFO] Handling signal: term
+[2016-12-30 07:04:32 +0000] [337] [INFO] Worker exiting (pid: 337)
+[2016-12-30 07:04:32 +0000] [336] [INFO] Worker exiting (pid: 336)
+[2016-12-30 07:04:32 +0000] [334] [INFO] Worker exiting (pid: 334)
+[2016-12-30 07:04:32 +0000] [335] [INFO] Worker exiting (pid: 335)
+[2016-12-30 07:04:32 +0000] [329] [INFO] Shutting down: Master
+[2016-12-30 07:04:32 +0000] [360] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 07:04:32 +0000] [360] [INFO] Listening at: http://0.0.0.0:9000 (360)
+[2016-12-30 07:04:32 +0000] [360] [INFO] Using worker: sync
+[2016-12-30 07:04:32 +0000] [365] [INFO] Booting worker with pid: 365
+[2016-12-30 07:04:33 +0000] [370] [INFO] Booting worker with pid: 370
+[2016-12-30 07:04:33 +0000] [375] [INFO] Booting worker with pid: 375
+[2016-12-30 07:04:33 +0000] [380] [INFO] Booting worker with pid: 380
+[2016-12-30 07:07:54 +0000] [360] [INFO] Handling signal: term
+[2016-12-30 07:07:54 +0000] [380] [INFO] Worker exiting (pid: 380)
+[2016-12-30 07:07:54 +0000] [370] [INFO] Worker exiting (pid: 370)
+[2016-12-30 07:07:54 +0000] [365] [INFO] Worker exiting (pid: 365)
+[2016-12-30 07:07:54 +0000] [375] [INFO] Worker exiting (pid: 375)
+[2016-12-30 07:07:54 +0000] [360] [INFO] Shutting down: Master
+[2016-12-30 07:07:54 +0000] [390] [INFO] Starting gunicorn 19.6.0
+[2016-12-30 07:07:54 +0000] [390] [INFO] Listening at: http://0.0.0.0:9000 (390)
+[2016-12-30 07:07:54 +0000] [390] [INFO] Using worker: sync
+[2016-12-30 07:07:54 +0000] [395] [INFO] Booting worker with pid: 395
+[2016-12-30 07:07:54 +0000] [396] [INFO] Booting worker with pid: 396
+[2016-12-30 07:07:54 +0000] [397] [INFO] Booting worker with pid: 397
+[2016-12-30 07:07:54 +0000] [403] [INFO] Booting worker with pid: 403
+[2016-12-30 07:08:14,714] ERROR in app: 400: Bad Request
+[2017-01-03 11:49:49 +0000] [390] [INFO] Handling signal: term
+[2017-01-03 11:49:49 +0000] [403] [INFO] Worker exiting (pid: 403)
+[2017-01-03 11:49:49 +0000] [395] [INFO] Worker exiting (pid: 395)
+[2017-01-03 11:49:49 +0000] [396] [INFO] Worker exiting (pid: 396)
+[2017-01-03 11:49:49 +0000] [397] [INFO] Worker exiting (pid: 397)
+[2017-01-03 11:49:49 +0000] [390] [INFO] Shutting down: Master
+[2017-01-03 11:49:49 +0000] [467] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:49:49 +0000] [467] [INFO] Listening at: http://0.0.0.0:9000 (467)
+[2017-01-03 11:49:49 +0000] [467] [INFO] Using worker: sync
+[2017-01-03 11:49:49 +0000] [472] [INFO] Booting worker with pid: 472
+[2017-01-03 11:49:49 +0000] [477] [INFO] Booting worker with pid: 477
+[2017-01-03 11:49:49 +0000] [482] [INFO] Booting worker with pid: 482
+[2017-01-03 11:49:49 +0000] [483] [INFO] Booting worker with pid: 483
+[2017-01-03 11:49:50 +0000] [472] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:50 +0000] [472] [INFO] Worker exiting (pid: 472)
+[2017-01-03 11:49:50 +0000] [477] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:50 +0000] [477] [INFO] Worker exiting (pid: 477)
+[2017-01-03 11:49:50 +0000] [483] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:50 +0000] [483] [INFO] Worker exiting (pid: 483)
+[2017-01-03 11:49:50 +0000] [482] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:50 +0000] [482] [INFO] Worker exiting (pid: 482)
+[2017-01-03 11:49:51 +0000] [492] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:49:51 +0000] [492] [INFO] Listening at: http://0.0.0.0:9000 (492)
+[2017-01-03 11:49:51 +0000] [492] [INFO] Using worker: sync
+[2017-01-03 11:49:51 +0000] [497] [INFO] Booting worker with pid: 497
+[2017-01-03 11:49:51 +0000] [498] [INFO] Booting worker with pid: 498
+[2017-01-03 11:49:51 +0000] [499] [INFO] Booting worker with pid: 499
+[2017-01-03 11:49:51 +0000] [505] [INFO] Booting worker with pid: 505
+[2017-01-03 11:49:51 +0000] [498] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:51 +0000] [498] [INFO] Worker exiting (pid: 498)
+[2017-01-03 11:49:51 +0000] [497] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:51 +0000] [497] [INFO] Worker exiting (pid: 497)
+[2017-01-03 11:49:52 +0000] [499] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:52 +0000] [499] [INFO] Worker exiting (pid: 499)
+[2017-01-03 11:49:52 +0000] [505] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:52 +0000] [505] [INFO] Worker exiting (pid: 505)
+[2017-01-03 11:49:54 +0000] [517] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:49:54 +0000] [517] [INFO] Listening at: http://0.0.0.0:9000 (517)
+[2017-01-03 11:49:54 +0000] [517] [INFO] Using worker: sync
+[2017-01-03 11:49:54 +0000] [522] [INFO] Booting worker with pid: 522
+[2017-01-03 11:49:54 +0000] [523] [INFO] Booting worker with pid: 523
+[2017-01-03 11:49:54 +0000] [528] [INFO] Booting worker with pid: 528
+[2017-01-03 11:49:54 +0000] [533] [INFO] Booting worker with pid: 533
+[2017-01-03 11:49:54 +0000] [522] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:54 +0000] [522] [INFO] Worker exiting (pid: 522)
+[2017-01-03 11:49:54 +0000] [523] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:54 +0000] [523] [INFO] Worker exiting (pid: 523)
+[2017-01-03 11:49:54 +0000] [528] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:54 +0000] [528] [INFO] Worker exiting (pid: 528)
+[2017-01-03 11:49:54 +0000] [533] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:54 +0000] [533] [INFO] Worker exiting (pid: 533)
+[2017-01-03 11:49:57 +0000] [543] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:49:57 +0000] [543] [INFO] Listening at: http://0.0.0.0:9000 (543)
+[2017-01-03 11:49:57 +0000] [543] [INFO] Using worker: sync
+[2017-01-03 11:49:57 +0000] [548] [INFO] Booting worker with pid: 548
+[2017-01-03 11:49:57 +0000] [549] [INFO] Booting worker with pid: 549
+[2017-01-03 11:49:57 +0000] [556] [INFO] Booting worker with pid: 556
+[2017-01-03 11:49:58 +0000] [559] [INFO] Booting worker with pid: 559
+[2017-01-03 11:49:58 +0000] [549] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:58 +0000] [549] [INFO] Worker exiting (pid: 549)
+[2017-01-03 11:49:58 +0000] [548] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:58 +0000] [548] [INFO] Worker exiting (pid: 548)
+[2017-01-03 11:49:58 +0000] [556] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:58 +0000] [556] [INFO] Worker exiting (pid: 556)
+[2017-01-03 11:49:58 +0000] [559] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(BASE):
+NameError: name 'BASE' is not defined
+[2017-01-03 11:49:58 +0000] [559] [INFO] Worker exiting (pid: 559)
+[2017-01-03 11:50:23 +0000] [572] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:50:23 +0000] [572] [INFO] Listening at: http://0.0.0.0:9000 (572)
+[2017-01-03 11:50:23 +0000] [572] [INFO] Using worker: sync
+[2017-01-03 11:50:23 +0000] [577] [INFO] Booting worker with pid: 577
+[2017-01-03 11:50:23 +0000] [582] [INFO] Booting worker with pid: 582
+[2017-01-03 11:50:23 +0000] [587] [INFO] Booting worker with pid: 587
+[2017-01-03 11:50:23 +0000] [588] [INFO] Booting worker with pid: 588
+[2017-01-03 11:50:23 +0000] [577] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:23 +0000] [577] [INFO] Worker exiting (pid: 577)
+[2017-01-03 11:50:23 +0000] [582] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:23 +0000] [582] [INFO] Worker exiting (pid: 582)
+[2017-01-03 11:50:23 +0000] [587] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:23 +0000] [587] [INFO] Worker exiting (pid: 587)
+[2017-01-03 11:50:23 +0000] [588] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:23 +0000] [588] [INFO] Worker exiting (pid: 588)
+[2017-01-03 11:50:25 +0000] [597] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:50:25 +0000] [597] [INFO] Listening at: http://0.0.0.0:9000 (597)
+[2017-01-03 11:50:25 +0000] [597] [INFO] Using worker: sync
+[2017-01-03 11:50:25 +0000] [602] [INFO] Booting worker with pid: 602
+[2017-01-03 11:50:25 +0000] [607] [INFO] Booting worker with pid: 607
+[2017-01-03 11:50:25 +0000] [612] [INFO] Booting worker with pid: 612
+[2017-01-03 11:50:25 +0000] [613] [INFO] Booting worker with pid: 613
+[2017-01-03 11:50:25 +0000] [602] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:25 +0000] [602] [INFO] Worker exiting (pid: 602)
+[2017-01-03 11:50:25 +0000] [607] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:25 +0000] [607] [INFO] Worker exiting (pid: 607)
+[2017-01-03 11:50:25 +0000] [613] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:25 +0000] [613] [INFO] Worker exiting (pid: 613)
+[2017-01-03 11:50:25 +0000] [612] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:25 +0000] [612] [INFO] Worker exiting (pid: 612)
+[2017-01-03 11:50:27 +0000] [622] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:50:27 +0000] [622] [INFO] Listening at: http://0.0.0.0:9000 (622)
+[2017-01-03 11:50:27 +0000] [622] [INFO] Using worker: sync
+[2017-01-03 11:50:27 +0000] [627] [INFO] Booting worker with pid: 627
+[2017-01-03 11:50:27 +0000] [628] [INFO] Booting worker with pid: 628
+[2017-01-03 11:50:27 +0000] [635] [INFO] Booting worker with pid: 635
+[2017-01-03 11:50:27 +0000] [638] [INFO] Booting worker with pid: 638
+[2017-01-03 11:50:27 +0000] [628] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:27 +0000] [628] [INFO] Worker exiting (pid: 628)
+[2017-01-03 11:50:27 +0000] [627] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:27 +0000] [627] [INFO] Worker exiting (pid: 627)
+[2017-01-03 11:50:28 +0000] [635] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:28 +0000] [635] [INFO] Worker exiting (pid: 635)
+[2017-01-03 11:50:28 +0000] [638] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:28 +0000] [638] [INFO] Worker exiting (pid: 638)
+[2017-01-03 11:50:31 +0000] [648] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:50:31 +0000] [648] [INFO] Listening at: http://0.0.0.0:9000 (648)
+[2017-01-03 11:50:31 +0000] [648] [INFO] Using worker: sync
+[2017-01-03 11:50:31 +0000] [653] [INFO] Booting worker with pid: 653
+[2017-01-03 11:50:31 +0000] [654] [INFO] Booting worker with pid: 654
+[2017-01-03 11:50:31 +0000] [659] [INFO] Booting worker with pid: 659
+[2017-01-03 11:50:31 +0000] [660] [INFO] Booting worker with pid: 660
+[2017-01-03 11:50:31 +0000] [653] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:31 +0000] [653] [INFO] Worker exiting (pid: 653)
+[2017-01-03 11:50:31 +0000] [654] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:31 +0000] [654] [INFO] Worker exiting (pid: 654)
+[2017-01-03 11:50:31 +0000] [659] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:31 +0000] [659] [INFO] Worker exiting (pid: 659)
+[2017-01-03 11:50:31 +0000] [660] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:50:31 +0000] [660] [INFO] Worker exiting (pid: 660)
+[2017-01-03 11:51:01 +0000] [674] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:51:01 +0000] [674] [INFO] Listening at: http://0.0.0.0:9000 (674)
+[2017-01-03 11:51:01 +0000] [674] [INFO] Using worker: sync
+[2017-01-03 11:51:01 +0000] [679] [INFO] Booting worker with pid: 679
+[2017-01-03 11:51:01 +0000] [680] [INFO] Booting worker with pid: 680
+[2017-01-03 11:51:01 +0000] [689] [INFO] Booting worker with pid: 689
+[2017-01-03 11:51:01 +0000] [690] [INFO] Booting worker with pid: 690
+[2017-01-03 11:51:01 +0000] [679] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:01 +0000] [679] [INFO] Worker exiting (pid: 679)
+[2017-01-03 11:51:01 +0000] [680] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:01 +0000] [680] [INFO] Worker exiting (pid: 680)
+[2017-01-03 11:51:02 +0000] [690] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:02 +0000] [690] [INFO] Worker exiting (pid: 690)
+[2017-01-03 11:51:02 +0000] [689] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:02 +0000] [689] [INFO] Worker exiting (pid: 689)
+[2017-01-03 11:51:03 +0000] [699] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:51:03 +0000] [699] [INFO] Listening at: http://0.0.0.0:9000 (699)
+[2017-01-03 11:51:03 +0000] [699] [INFO] Using worker: sync
+[2017-01-03 11:51:03 +0000] [704] [INFO] Booting worker with pid: 704
+[2017-01-03 11:51:03 +0000] [709] [INFO] Booting worker with pid: 709
+[2017-01-03 11:51:03 +0000] [714] [INFO] Booting worker with pid: 714
+[2017-01-03 11:51:03 +0000] [715] [INFO] Booting worker with pid: 715
+[2017-01-03 11:51:03 +0000] [704] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:03 +0000] [704] [INFO] Worker exiting (pid: 704)
+[2017-01-03 11:51:03 +0000] [709] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:03 +0000] [709] [INFO] Worker exiting (pid: 709)
+[2017-01-03 11:51:03 +0000] [714] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:03 +0000] [714] [INFO] Worker exiting (pid: 714)
+[2017-01-03 11:51:03 +0000] [715] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:03 +0000] [715] [INFO] Worker exiting (pid: 715)
+[2017-01-03 11:51:05 +0000] [724] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:51:05 +0000] [724] [INFO] Listening at: http://0.0.0.0:9000 (724)
+[2017-01-03 11:51:05 +0000] [724] [INFO] Using worker: sync
+[2017-01-03 11:51:05 +0000] [729] [INFO] Booting worker with pid: 729
+[2017-01-03 11:51:05 +0000] [730] [INFO] Booting worker with pid: 730
+[2017-01-03 11:51:05 +0000] [739] [INFO] Booting worker with pid: 739
+[2017-01-03 11:51:05 +0000] [740] [INFO] Booting worker with pid: 740
+[2017-01-03 11:51:06 +0000] [730] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:06 +0000] [730] [INFO] Worker exiting (pid: 730)
+[2017-01-03 11:51:06 +0000] [729] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:06 +0000] [729] [INFO] Worker exiting (pid: 729)
+[2017-01-03 11:51:06 +0000] [739] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:06 +0000] [739] [INFO] Worker exiting (pid: 739)
+[2017-01-03 11:51:06 +0000] [740] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:06 +0000] [740] [INFO] Worker exiting (pid: 740)
+[2017-01-03 11:51:09 +0000] [750] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:51:09 +0000] [750] [INFO] Listening at: http://0.0.0.0:9000 (750)
+[2017-01-03 11:51:09 +0000] [750] [INFO] Using worker: sync
+[2017-01-03 11:51:09 +0000] [755] [INFO] Booting worker with pid: 755
+[2017-01-03 11:51:09 +0000] [760] [INFO] Booting worker with pid: 760
+[2017-01-03 11:51:09 +0000] [761] [INFO] Booting worker with pid: 761
+[2017-01-03 11:51:09 +0000] [762] [INFO] Booting worker with pid: 762
+[2017-01-03 11:51:09 +0000] [755] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:09 +0000] [755] [INFO] Worker exiting (pid: 755)
+[2017-01-03 11:51:09 +0000] [762] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:09 +0000] [762] [INFO] Worker exiting (pid: 762)
+[2017-01-03 11:51:09 +0000] [760] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:09 +0000] [760] [INFO] Worker exiting (pid: 760)
+[2017-01-03 11:51:09 +0000] [761] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/usr/lib/python2.6/site-packages/gunicorn/arbiter.py", line 557, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/workers/base.py", line 136, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.6/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/root/workspace/app.py", line 2, in <module>
+    from model import HELP, DBSession
+  File "/root/workspace/model.py", line 7, in <module>
+    class HELP(Base):
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/api.py", line 64, in __init__
+    _as_declarative(cls, classname, cls.__dict__)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 88, in _as_declarative
+    _MapperConfig.setup_mapping(cls, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 103, in setup_mapping
+    cfg_cls(cls_, classname, dict_)
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 135, in __init__
+    self._early_mapping()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 138, in _early_mapping
+    self.map()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/ext/declarative/base.py", line 530, in map
+    **self.mapper_args
+  File "<string>", line 2, in mapper
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 677, in __init__
+    self._configure_pks()
+  File "/usr/lib/python2.6/site-packages/sqlalchemy/orm/mapper.py", line 1277, in _configure_pks
+    (self, self.mapped_table.description))
+ArgumentError: Mapper Mapper|HELP|help could not assemble any primary key columns for mapped table 'help'
+[2017-01-03 11:51:09 +0000] [761] [INFO] Worker exiting (pid: 761)
+[2017-01-03 11:52:29 +0000] [791] [INFO] Starting gunicorn 19.6.0
+[2017-01-03 11:52:29 +0000] [791] [INFO] Listening at: http://0.0.0.0:9000 (791)
+[2017-01-03 11:52:29 +0000] [791] [INFO] Using worker: sync
+[2017-01-03 11:52:29 +0000] [796] [INFO] Booting worker with pid: 796
+[2017-01-03 11:52:29 +0000] [797] [INFO] Booting worker with pid: 797
+[2017-01-03 11:52:29 +0000] [798] [INFO] Booting worker with pid: 798
+[2017-01-03 11:52:29 +0000] [799] [INFO] Booting worker with pid: 799
+[2017-01-03 12:00:32,110] ERROR in app: 400: Bad Request
+[2017-01-04 07:15:15,554] ERROR in app: 400: Bad Request
+[2017-01-04 07:22:54 +0000] [791] [INFO] Handling signal: term
+[2017-01-04 07:22:54 +0000] [797] [INFO] Worker exiting (pid: 797)
+[2017-01-04 07:22:54 +0000] [796] [INFO] Worker exiting (pid: 796)
+[2017-01-04 07:22:54 +0000] [798] [INFO] Worker exiting (pid: 798)
+[2017-01-04 07:22:54 +0000] [799] [INFO] Worker exiting (pid: 799)
+[2017-01-04 07:22:54 +0000] [791] [INFO] Shutting down: Master
+[2017-01-04 07:33:30 +0000] [901] [INFO] Starting gunicorn 19.6.0
+[2017-01-04 07:33:30 +0000] [901] [INFO] Listening at: http://0.0.0.0:9000 (901)
+[2017-01-04 07:33:30 +0000] [901] [INFO] Using worker: sync
+[2017-01-04 07:33:30 +0000] [906] [INFO] Booting worker with pid: 906
+[2017-01-04 07:33:30 +0000] [907] [INFO] Booting worker with pid: 907
+[2017-01-04 07:33:30 +0000] [908] [INFO] Booting worker with pid: 908
+[2017-01-04 07:33:30 +0000] [909] [INFO] Booting worker with pid: 909
+[2017-01-04 08:14:49 +0000] [901] [INFO] Handling signal: term
+[2017-01-04 08:14:49 +0000] [908] [INFO] Worker exiting (pid: 908)
+[2017-01-04 08:14:49 +0000] [906] [INFO] Worker exiting (pid: 906)
+[2017-01-04 08:14:49 +0000] [909] [INFO] Worker exiting (pid: 909)
+[2017-01-04 08:14:49 +0000] [907] [INFO] Worker exiting (pid: 907)
+[2017-01-04 08:14:49 +0000] [901] [INFO] Shutting down: Master
+[2017-01-04 08:14:49 +0000] [929] [INFO] Starting gunicorn 19.6.0
+[2017-01-04 08:14:49 +0000] [929] [INFO] Listening at: http://0.0.0.0:9000 (929)
+[2017-01-04 08:14:49 +0000] [929] [INFO] Using worker: sync
+[2017-01-04 08:14:49 +0000] [934] [INFO] Booting worker with pid: 934
+[2017-01-04 08:14:49 +0000] [935] [INFO] Booting worker with pid: 935
+[2017-01-04 08:14:49 +0000] [944] [INFO] Booting worker with pid: 944
+[2017-01-04 08:14:49 +0000] [945] [INFO] Booting worker with pid: 945
+[2017-01-04 09:39:49 +0000] [929] [INFO] Handling signal: term
+[2017-01-04 09:39:49 +0000] [945] [INFO] Worker exiting (pid: 945)
+[2017-01-04 09:39:49 +0000] [944] [INFO] Worker exiting (pid: 944)
+[2017-01-04 09:39:49 +0000] [935] [INFO] Worker exiting (pid: 935)
+[2017-01-04 09:39:49 +0000] [934] [INFO] Worker exiting (pid: 934)
+[2017-01-04 09:39:49 +0000] [929] [INFO] Shutting down: Master
