@@ -13,6 +13,7 @@ class HELP(Base):
 	description = Column(String())
 	offer = Column(String())
 	time = Column(Integer())
+	uid = Column(String())
 
 engine = create_engine('mysql+mysqlconnector://root:iwanttest235@#%@10.9.142.53:3306/test')
 DBSession = sessionmaker(bind=engine)

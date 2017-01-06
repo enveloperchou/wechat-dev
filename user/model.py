@@ -4,7 +4,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
-class USER(Base):
+class User(Base):
 	__tablename__ = 'user'
 
 	uid = Column(String(), primary_key=True)
@@ -14,6 +14,13 @@ class USER(Base):
 	provice = Column(String())
 	city = Column(String())
 	country = Column(String())
+	user_key = Column(String())
+
+class UserSession(Base):
+	__tablename__ = 'user_session'
+	user_key = Column(String(), primary_key=True)
+	page = Column(String())
+	now = Column(Integer())
 
 
 engine = create_engine('mysql+mysqlconnector://root:iwanttest235@#%@10.9.142.53:3306/test')
