@@ -40,7 +40,7 @@ def onLogin():
 					redis_client.setex(user_key, resp, session_timeout)
 					##缓存session
 
-					user_session = UserSession(user_key=user_key, page='page/user/index/index')
+					user_session = UserSession(user_key=user_key, page='page/user/user-favor/user-favor')
 					db_session.add(user_session)
 					db_session.commit()
 					##存储用户session

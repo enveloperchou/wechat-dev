@@ -8,11 +8,14 @@ help = Blueprint('help', __name__, template_folder='')
 @help.route('/help/detail/<id>', methods=['GET'])
 def detail(id):
 	try:
-		print id
+		db_session = DBSession()
+		record = db_session.query(HELP).filter(HELP.id==id).one()
+		print record
+		return json.dumps(record)
 	except Exception, e:
 		current_app.logger.error(e)
+		return 'error'
 		
-	return 'success'
 
 @help.route('/help/publish/<ukey>', methods=['POST'])
 def publish(ukey):
